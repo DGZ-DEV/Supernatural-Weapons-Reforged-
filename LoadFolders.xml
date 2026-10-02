@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loadFolders>
+    <!-- El mod original reparte su contenido:
+           - en la RAIZ:  Textures y Languages
+           - en 1.5\:     Defs y Assemblies (la DLL)
+         Sin LoadFolders.xml, RimWorld carga todo, y por eso funcionaba en 1.5. Al declarar 1.6 hay
+         que listar LAS DOS rutas: si solo se pusiera 1.5, se perderian las texturas y el juego
+         diria "Could not load Texture2D" para cada una (que es exactamente lo que paso). -->
+    <v1.5>
+        <li>/</li>
+        <li>1.5</li>
+    </v1.5>
+    <v1.6>
+        <li>/</li>
+        <li>1.5</li>
+    </v1.6>
+</loadFolders>
