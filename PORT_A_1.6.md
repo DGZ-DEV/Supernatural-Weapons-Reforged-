@@ -5,7 +5,7 @@ Anade dos armas anómalas: **The Revolver**, que mata de un solo disparo, y
 **Mark of the Killer**, una maldición que crea un supersoldado inmortal a cambio
 de un precio.
 
-El original vive en `C:\Users\User\Desktop\Supernatural Weapons` y **no se ha
+El original de este mod no se ha tocado: este repositorio es una copia de trabajo.
 tocado**. Este port es una copia de trabajo.
 
 ## Estado
@@ -51,17 +51,12 @@ Las tres que declara el mod, y como se resolvieron:
 | Dependencia | Como |
 |---|---|
 | **Anomaly** (DLC) | Ya estaba activo |
-| **Vanilla Expanded Framework** | Descargado de Steam Workshop (`2023507013`) con SteamCMD. Es quien aporta `MVCF.dll`, que el mod usa para sus verbos |
-| **EBSG Framework** | Descargado de Steam Workshop (`3112549163`) con SteamCMD. Aporta las necesidades y los pensamientos del mod |
+| **Vanilla Expanded Framework** | Aporta `MVCF.dll`, que el mod usa para sus verbos |
+| **EBSG Framework** | Aporta las necesidades y los pensamientos del mod |
 
 Las dos declaran compatibilidad con 1.6 en sus propios metadatos, y se comprobo
 que las cuatro clases externas que el mod necesita siguen existiendo en sus DLL.
 
-Descarga usada (login anonimo, sin cuenta de Steam):
-
-    steamcmd +force_install_dir CARPETA +login anonymous
-             +workshop_download_item 294100 2023507013 validate
-             +workshop_download_item 294100 3112549163 validate +quit
 
 ## Como se verifico
 
