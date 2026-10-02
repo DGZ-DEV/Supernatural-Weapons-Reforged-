@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
 	<NeedDef>
@@ -59,7 +59,10 @@
 			<ThingDef>Artemiish_SNKnife</ThingDef>
 		</descriptionHyperlinks>
 		<hediffClass>HediffWithComps</hediffClass>
-		<causesNeed>Artemiish_BloodThirst</causesNeed>
+		<!-- PORT 1.6: aqui estaba <causesNeed>Artemiish_BloodThirst</causesNeed>, un campo que
+		     1.6 ya no tiene en HediffDef (RimWorld lo rechazaba con error de XML). No se pierde
+		     nada: dos lineas mas abajo el propio mod engancha la misma necesidad con su comp
+		     HediffCompProperties_AttachedNeed, que es codigo suyo y sigue haciendolo. -->
 		<comps>
 			<li Class="SupernaturalWeapons.HediffCompProperties_AttachedNeed">
 				<needDef>Artemiish_BloodThirst</needDef>
