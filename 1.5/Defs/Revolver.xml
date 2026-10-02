@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
     <HediffDef ParentName="InjuryBase">
@@ -97,6 +97,12 @@
             </li>
         </verbs>
 	    <comps>
+	        <!-- PORT 1.6: el juego avisaba "Config error in IdeoRelic: ThingDef
+	             Artemiish_Fake_SNRevolver is on available things list of IdeoRelic precept, but
+	             missing CompStyleable". Es un arma listada como posible reliquia de Ideology y le
+	             falta el componente que permite estilizarla. Se anade aqui, en la base, para que
+	             lo hereden todas sus variantes. -->
+	        <li Class="CompProperties_Styleable"/>
 			   <li Class="MVCF.Comps.CompProperties_VerbProps">
                     <compClass>MVCF.Comps.Comp_VerbProps</compClass>
                     <verbProps>
