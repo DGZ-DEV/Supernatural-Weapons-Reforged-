@@ -7,7 +7,7 @@
 **Two anomalous weapons for RimWorld — ported to 1.6.**
 
 [![RimWorld](https://img.shields.io/badge/RimWorld-1.6-2f7d32?style=flat-square)](https://rimworldgame.com/)
-[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/license-not%20specified-lightgrey?style=flat-square)](NOTICE)
 [![Requires](https://img.shields.io/badge/requires-Anomaly%20%C2%B7%20VEF%20%C2%B7%20EBSG-9c27b0?style=flat-square)](#requirements)
 
 </div>

@@ -1,0 +1,38 @@
+# Notice
+
+## Original authorship
+
+**Supernatural Weapons** was created by **Artemiish**. The C# code, the XML
+definitions and the artwork are theirs.
+
+- Original Steam Workshop page: <https://steamcommunity.com/sharedfiles/filedetails/?id=3299351531>
+
+## License status
+
+**The original mod does not state a license** — not in its files, not in its `About.xml`,
+and not on its Workshop page. Because no license was declared, **all rights remain with the
+original author**. Nothing in this repository grants, transfers or implies any right over
+their work.
+
+This repository is a **personal port**, published so the mod keeps working. If you are the
+author and want it taken down, reworded or credited differently, open an issue and it will
+be handled.
+
+## Derivative work
+
+The mod is based on **Supernatural**, a television series owned by **Warner Bros.** The weapon
+names, the artwork and the concept come from that property, as the original author acknowledges
+in their own credits on the Workshop page.
+
+## What this repository is, and is not
+
+- It **is** a compatibility update to RimWorld **1.6** for a mod last released for 1.5.
+- It is **not** affiliated with, endorsed by, or a replacement for the original author.
+- It is **not** affiliated with Warner Bros. in any way.
+- It is distributed **without charge**, and no part of it is sold.
+
+## Dependencies
+
+The mod requires the **Anomaly** DLC, **Vanilla Expanded Framework** and **EBSG Framework**.
+Those are the work of their respective authors and are not included here.
+
