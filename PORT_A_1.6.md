@@ -5,9 +5,6 @@ Anade dos armas anómalas: **The Revolver**, que mata de un solo disparo, y
 **Mark of the Killer**, una maldición que crea un supersoldado inmortal a cambio
 de un precio.
 
-El original vive en `C:\Users\User\Desktop\Supernatural Weapons` y **no se ha
-tocado**. Este port es una copia de trabajo.
-
 ## Estado
 
 - **Carga con cero errores y cero avisos** en `Player.log`.
