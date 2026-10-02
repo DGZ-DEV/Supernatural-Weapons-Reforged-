@@ -159,6 +159,11 @@
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
         </statBases>
 		<comps Inherit="False">
+		<!-- PORT 1.6: este arma lleva comps Inherit="False", o sea que NO hereda los del
+		     padre Artemiish_SNRevolverBase, y por eso el juego seguia avisando de que le
+		     falta CompStyleable aunque estuviera en la base: aqui no llega. Es un arma
+		     listada como posible reliquia de Ideology y necesita el componente en si misma. -->
+		<li Class="CompProperties_Styleable"/>
 			<li Class="CompProperties_Forbiddable"/>
 			<li>
 				<compClass>CompEquippable</compClass>
